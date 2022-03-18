@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    transition: 3.s;
+    background-color: #ddd;
+}
+body.active{
+    color: #fff;
+    
+}
+/*start setting container*/
+
+.container{
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 500px;
+}
+.container h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.container p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.container input{
+    margin: 10px auto;
+    display: block;
+    width: 88px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+/*end setting container*/
